@@ -16,7 +16,7 @@ import java.util.List;
 @Mapper
 @Repository
 public interface ArchiveMapper {
-
+    //这是一个注解
     @Select("select archiveName from archives order by id desc")
     List<String> findArchives();
 
