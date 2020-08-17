@@ -30,7 +30,7 @@ public class BackControl {
     ArticleService articleService;
 
     /**
-     * 跳转首页
+     * 跳转首页 test
      */
     @GetMapping("/")
     public String index(HttpServletRequest request, HttpServletResponse response){
