@@ -21,11 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.security.Principal;
 
-/**
- * @author: zhangocean
- * @Date: 2018/7/20 20:56
- * Describe:
- */
+
 @RestController
 @Slf4j
 public class UserControl {
